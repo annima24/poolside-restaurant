@@ -3,7 +3,7 @@ body {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  caret-color: transparent;  
+  caret-color: transparent;
 }
 /* the whole page */
 .content {
@@ -28,8 +28,8 @@ body {
   padding-right: 10px;
 }
 
-.navLink  {
-  cursor: pointer; 
+.navLink {
+  cursor: pointer;
   text-decoration: underline;
 }
 
@@ -45,19 +45,19 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 50px;
-  animation: fadeIn 1.5s;  
+  animation: fadeIn 1.5s;
 }
 
 /* home page */
 .welcomeTextBox {
-    display: flex;
-    flex-direction: column;  
-    padding-top: 50px;    
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
 }
 
 /* menu page */
 
-.menu{
+.menu {
   padding: 50px;
   align-items: flex-start;
 }
@@ -74,7 +74,7 @@ body {
   gap: 15px;
 }
 
-.menuItemBox  {
+.menuItemBox {
   width: 300px;
 }
 
@@ -83,19 +83,23 @@ body {
   min-width: 300px;
 }
 
-.menuItemBox  {
+.menuItemBox {
   width: 300px;
   padding: 15px;
   border: 1px solid black;
 }
 
-
-
-
-
-
-
 /* contact page */
+.contact {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.phoneInfo {
+  display: flex;
+  gap: 5px;
+}
 
 /* Animations */
 

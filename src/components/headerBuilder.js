@@ -1,3 +1,4 @@
+import buildContact from '../contact';
 import buildHome from '../home';
 import {buildMenu} from '../menu';
 
@@ -22,7 +23,7 @@ function createNavBar() {
   nav.classList.add('nav');
   nav.appendChild(createNavLink('home', buildHome));
   nav.appendChild(createNavLink('menu', buildMenu));
-  nav.appendChild(createNavLink('contact'));
+  nav.appendChild(createNavLink('contact', buildContact));
   return nav;
 }
 
